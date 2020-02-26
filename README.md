@@ -9,8 +9,8 @@ Tested on Ubuntu 18.04 LTS
 - Clone this repo
 - Change directories to the newly cloned repo
   + `cd vivaldi-browser-profile-picker`
-- Install dependencies
-  + `sudo apt-get update && sudo apt-get install jq`
+- Install dependencies to run the script
+  + `sudo apt-get update && sudo apt-get install jq zenity`
 - Edit `vivaldi-profile-choice.desktop` file
   + `nano vivaldi-profile-choice.desktop`
   + 3 locations (the `Exec=` lines):
